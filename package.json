@@ -1,0 +1,34 @@
+{
+  "name": "mana",
+  "version": "1.0.0",
+  "description": "玛娜花园-数据银行开创者",
+  "main": "gulpfile.js",
+  "private": true,
+  "scripts": {
+    "prod": "gulp --production",
+    "dev": "gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@115.29.209.185:ct/heracles.git"
+  },
+  "keywords": [
+    "玛娜花园",
+    "数据银行"
+  ],
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cache": "^0.4.5",
+    "gulp-changed": "^1.3.2",
+    "gulp-clean-css": "^2.0.13",
+    "gulp-debug": "^2.1.2",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-jshint": "^2.0.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.7",
+    "jshint": "^2.9.3",
+    "jshint-stylish": "^2.2.0",
+    "node-sass": "^3.13.1"
+  }
+}
